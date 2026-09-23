@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Attendance Scan Mobile",
+    "slug": "attendance-scan-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "backgroundColor": "#1B2A4A"
+    },
+    "android": {
+      "package": "com.attendance.scan",
+      "permissions": [
+        "CAMERA"
+      ]
+    },
+    "ios": {
+      "bundleIdentifier": "com.attendance.scan",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Used to photograph the signed daily attendance sheet."
+      }
+    },
+    "extra": {
+      "apiBaseUrl": "https://daryas-attendance.duckdns.org/api"
+    }
+  }
+}
