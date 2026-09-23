@@ -12,6 +12,7 @@
     "android": {
       "package": "com.attendance.scan",
       "permissions": [
+        "CAMERA",
         "CAMERA"
       ]
     },
@@ -22,7 +23,16 @@
       }
     },
     "extra": {
-      "apiBaseUrl": "https://daryas-attendance.duckdns.org/api"
+      "apiBaseUrl": "https://daryas-attendance.duckdns.org/api",
+      "eas": {
+        "projectId": "de306dc1-5189-4dc4-99e7-64ce8370e4de"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/de306dc1-5189-4dc4-99e7-64ce8370e4de"
     }
   }
 }

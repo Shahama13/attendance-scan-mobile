@@ -12,3 +12,4 @@ export default function App() {
     </SafeAreaProvider>
   );
 }
+// eas update --branch preview --message "describe what changed"
